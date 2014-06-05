@@ -1,0 +1,94 @@
+@font-face{
+	font-family: 'Idealist Sans Light';
+	src: url(../fonts/Idealist-Light.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: 'Idealist Sans';
+	src: url(../fonts/Idealist-Sans.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: 'Idealist Sans SC';
+	src: url(../fonts/Idealist-SC.ttf) format("truetype");
+}
+
+#full_shedule{
+	background: #78b7ab;
+	width: 50%;
+	padding: 1px 0 1px 0;
+	min-width: 380px;
+}
+
+#heading{
+	height: 1.7em;
+	width: 100%;
+	background: #ecf0f1;
+	margin-top: 4%;
+}
+
+#heading p{
+	font-family: "Idealist Sans SC";
+	font-size: 1.5em;
+	margin: 0;
+	line-height: .9em;
+	text-align: center;
+	color: #2c3e50;
+}
+
+#shedule{
+	border: 1px solid #ecf0f1;
+	margin: auto;
+	margin: 2.3% 2% 2.3% 2%;
+	width: 96%;
+	border-collapse: collapse;
+
+}
+
+#shedule th{
+	/*border: 1px solid #ecf0f1;*/
+	color: #2c3e50;
+	font-family: "Idealist Sans SC";
+}
+
+#group_dropdown{
+	border: none;
+	background: none;
+	color: #2c3e50;
+	font-family: "Idealist Sans SC";
+	font-size: 1em;
+	font-weight: bold;
+
+}
+
+#shedule td{
+	border: 1px solid #ecf0f1;
+	color: #2c3e50;
+	font-family: "Idealist Sans Light";
+	padding: 1%;
+}
+
+#shedule tr td:first-child{
+	background: #6ba499;
+}
+
+#shedule td:hover{
+	background: #61948a;
+}
+
+.day{
+	text-align: center;
+	font-style: italic;
+	font-family: "Idealist Sans SC";
+}
+
+.tutor{
+	font-size: .8em;
+	text-align: left;
+	font-style: italic;
+	
+}
+
+.room, .time{
+	text-align: center;
+}

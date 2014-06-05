@@ -1,0 +1,74 @@
+@font-face{
+	font-family: 'Idealist Sans Light';
+	src: url(../fonts/Idealist-Light.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: 'Idealist Sans';
+	src: url(../fonts/Idealist-Sans.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: 'Idealist Sans SC';
+	src: url(../fonts/Idealist-SC.ttf) format("truetype");
+}
+
+#all_tasks{
+	background: #e1b791;
+	width: 70%;
+	padding: 1px 0 1px 0;
+	min-width: 380px;
+}
+
+#heading{
+	height: 1.7em;
+	width: 100%;
+	background: #ecf0f1;
+	margin-top: 4%;
+}
+
+#heading p{
+	font-family: "Idealist Sans SC";
+	font-size: 1.5em;
+	margin: 0;
+	line-height: .9em;
+	text-align: center;
+	color: #2c3e50;
+}
+
+#tasks{
+	border: 1px solid #ecf0f1;
+	margin: auto;
+	margin: 2.3% 2% 2.3% 2%;
+	width: 96%;
+	border-collapse: collapse;
+
+}
+
+#tasks th{
+	/*border: 1px solid #ecf0f1;*/
+	color: #2c3e50;
+	font-family: "Idealist Sans SC";
+}
+
+#tasks td{
+	border: 1px solid #ecf0f1;
+	color: #2c3e50;
+	font-family: "Idealist Sans Light";
+	padding: 1%;
+}
+
+/*#tasks tr td:first-child{
+	background: #6ba499;
+}
+*/
+tr:hover{
+	background: #c69b74;
+		cursor: pointer;
+}
+
+.day{
+	text-align: center;
+	font-style: italic;
+	font-family: "Idealist Sans SC";
+}

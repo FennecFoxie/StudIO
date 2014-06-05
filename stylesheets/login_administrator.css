@@ -1,0 +1,96 @@
+@font-face{
+	font-family: 'Idealist Sans Light';
+	src: url(../fonts/Idealist-Light.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: 'Idealist Sans';
+	src: url(../fonts/Idealist-sans.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: 'Idealist Sans SC';
+	src: url(../fonts/Idealist-SC.ttf) format("truetype");
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	min-width: 890px;
+	min-height: 600px;
+}
+
+#layout{
+	background: #ecf0f1;
+	width: 100%;
+	min-height: 100%; 
+	padding-top: 1px;
+}
+
+#logo{
+	display: block;
+	margin: auto;
+	opacity: .7;
+}
+
+.field{
+	clear: both;
+	text-align: right;
+	line-height: 20px;
+	margin-top: 5%;
+}
+
+label{
+	float: left;
+	padding-right: 10px;
+	font-family: "Idealist Sans Light";
+	color: #2c3e50;
+	font-size: 1em;
+}
+
+.input_field{
+	border: none;
+	background: #ecf0f1;
+	height: 20px;
+}
+
+#submit{
+	border: none;
+	background: #34495e;
+	font-family: "Idealist Sans SC";
+	font-weight: bold;
+	font-size: 1em;
+	color: #78b7ab;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 3%;
+	width: 70%;
+	height: 30px;
+	display: block;
+	margin: auto;
+	margin-top: 10%;
+	cursor: pointer;
+
+}
+
+#submit:hover{
+	background: #2c3e50;
+}
+
+form{
+	/*float: left;*/
+	width: 60%;
+	background: #78b7ab;
+	padding: 10%;
+	margin: auto;
+	min-width: 230px;
+}
+
+#login_form{
+	background: #78b7ab;
+	margin:auto;
+		width: 30%;
+		min-width: 230px;
+}
